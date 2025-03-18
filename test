@@ -1427,10 +1427,10 @@ function ImGui:ApplyWindowSelectEffect(Window: GuiObject, TitleBar)
 
 	local Colors = {
 		Selected = {
-            BackgroundColor3 = Color3.fromRGB(255, 150, 150), -- Light Red when selected
+            BackgroundColor3 = Color3.fromRGB(220, 48, 35), -- New Red Color when selected
 		},
 		Deselected = {
-            BackgroundColor3 = Color3.fromRGB(255, 150, 150), -- Light Red when Deselected
+            BackgroundColor3 = Color3.fromRGB(220, 48, 35), -- New Red Color when deselected
 		}
 	}
 
