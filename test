@@ -1489,6 +1489,11 @@ end
 function ImGui:CreateWindow(WindowConfig)
 	--// Create Window frame
 	local Window: Frame = Prefabs.Window:Clone()
+local UIStroke = Window:FindFirstChildOfClass("UIStroke")
+if UIStroke then
+    UIStroke.Color = Color3.fromRGB(220, 48, 35) -- New Red Border
+end
+
 	Window.Parent = ImGui.ScreenGui
 	Window.Visible = true
 	WindowConfig.Window = Window
