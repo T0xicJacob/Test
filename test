@@ -16,22 +16,23 @@ local ImGui = {
 		},
 		Tabs = {
 			MouseEnter = {
-				BackgroundTransparency = 0.5,
                                 BackgroundColor3 = Color3.fromRGB(255, 100, 100), -- Light Red when hovered
+				BackgroundTransparency = 0.5,
 			},
 			MouseLeave = {
-				BackgroundTransparency = 1,
                                 BackgroundColor3 = Color3.fromRGB(255, 100, 100), -- Light Red when hovered
+				BackgroundTransparency = 1,
 			} 
 		},
 		Inputs = {
 			MouseEnter = {
-				BackgroundTransparency = 0,
                                 BackgroundColor3 = Color3.fromRGB(255, 100, 100), -- Light Red when hovered
+				BackgroundTransparency = 0,
+
 			},
 			MouseLeave = {
-				BackgroundTransparency = 0.5,
                                 BackgroundColor3 = Color3.fromRGB(255, 100, 100), -- Light Red when hovered
+				BackgroundTransparency = 0.5,
 			} 
 		},
 		WindowBorder = {
