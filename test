@@ -6,9 +6,11 @@ local ImGui = {
 	Animations = {
 		Buttons = {
 			MouseEnter = {
+                                BackgroundColor3 = Color3.fromRGB(255, 100, 100), -- Light Red when hovered
 				BackgroundTransparency = 0.5,
 			},
 			MouseLeave = {
+                        BackgroundColor3 = Color3.fromRGB(255, 100, 100), -- Light Red when hovered
 				BackgroundTransparency = 0.7,
 			} 
 		},
