@@ -933,6 +933,8 @@ function ImGui:ContainerClass(Frame: Frame, Class, Window)
 			local Props = {
 				Position = UDim2.fromScale(Percentage, 0.5)
 			}
+                        Grab.BackgroundColor3 = Color3.fromRGB(139, 0, 0) -- Dark Red for slider handle
+                        Slider.BackgroundColor3 = Color3.fromRGB(90, 0, 0) -- Slightly darker red for background
 
 			if IsProgress then
 				Props = {
