@@ -420,6 +420,7 @@ function ImGui:ContainerClass(Frame: Frame, Class, Window)
 		--// Stylise to correct type
 		if IsRadio then
 			Tick.ImageTransparency = 1
+                        Tick.ImageColor3 = Color3.fromRGB(139, 0, 0) -- Dark Red
 			Tick.BackgroundTransparency = 0
 		else
 			Tickbox:FindFirstChildOfClass("UIPadding"):Remove()
